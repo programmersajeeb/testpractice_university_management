@@ -5,7 +5,6 @@
     "sourceType": "module"
   },
   "plugins": ["@typescript-eslint"],
-  // HERE
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
@@ -18,11 +17,48 @@
     "no-undef": "error",
     "no-unused-expressions": "error",
     "no-unreachable": "error",
-    "@typescript-eslint/consistent-type-definitions": ["error", "type"]
+    "@typescript-eslint/consistent-type-definitions": ["error", "type"],
+    "@typescript-eslint/explicit-module-boundary-types": "off"
   },
 
   "env": {
     "browser": true,
     "es2021": true
+  },
+  "globals": {
+    "process": "readonly"
   }
 }
+
+
+/* {
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "no-unused-vars": "error",
+    "prefer-const": "error",
+    "no-unused-expressions": "error",
+    "no-undef": "error",
+    "no-console": "off",
+    "@typescript-eslint/consistent-type-definitions": ["error", "type"],
+    "@typescript-eslint/explicit-module-boundary-types": "off"
+  },
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "globals": {
+    "process": "readonly"
+  }
+}
+ */
