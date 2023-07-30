@@ -1,15 +1,15 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
-    },
-    "auditLog": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\testPractice\\logs\\winstone\\succeses\\.f0ab0d7e6c53f27c682206b4bb6d2ab0605bcdb4-audit.json",
-    "files": [
-        {
-            "date": 1689920338485,
-            "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\testPractice\\logs\\winstone\\succeses\\phu-2023-07-21-12-success.log",
-            "hash": "a3f97f5cb6eebc2c486b6cbc660908d570c6f25ade8bc235045359b609d5eb9a"
-        }
-    ],
-    "hashType": "sha256"
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\testPractice\\logs\\winstone\\succeses\\.f0ab0d7e6c53f27c682206b4bb6d2ab0605bcdb4-audit.json",
+  "files": [
+    {
+      "date": 1689920338485,
+      "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\testPractice\\logs\\winstone\\succeses\\phu-2023-07-21-12-success.log",
+      "hash": "a3f97f5cb6eebc2c486b6cbc660908d570c6f25ade8bc235045359b609d5eb9a"
+    }
+  ],
+  "hashType": "sha256"
 }
