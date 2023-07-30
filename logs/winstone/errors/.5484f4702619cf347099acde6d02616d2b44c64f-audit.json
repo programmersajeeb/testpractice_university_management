@@ -1,0 +1,40 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\testPractice\\logs\\winstone\\errors\\.5484f4702619cf347099acde6d02616d2b44c64f-audit.json",
+    "files": [
+        {
+            "date": 1689920515019,
+            "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\testPractice\\logs\\winstone\\errors\\phu-21-07-2023-12-error.log",
+            "hash": "aa5759a77b9d6a26a87d6a3e9899187292ee267c6b7f844bf102da8bc74db617"
+        },
+        {
+            "date": 1690002776103,
+            "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\testPractice\\logs\\winstone\\errors\\phu-22-07-2023-11-error.log",
+            "hash": "f19cf3a0099ff1155d1fd02cc44231a7416ad024c9c047481780a2570918fd71"
+        },
+        {
+            "date": 1690006001651,
+            "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\testPractice\\logs\\winstone\\errors\\phu-22-07-2023-12-error.log",
+            "hash": "174c021f9c7c8c4470ed4edc4de842533dfaa5377637d8ee9e393356a836d31c"
+        },
+        {
+            "date": 1690009292537,
+            "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\testPractice\\logs\\winstone\\errors\\phu-22-07-2023-13-error.log",
+            "hash": "d705cc4fde49650d57ed2a4d0c66644db84c8957cf09f4d6cdf3da2e8f60bd13"
+        },
+        {
+            "date": 1690022476693,
+            "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\testPractice\\logs\\winstone\\errors\\phu-22-07-2023-16-error.log",
+            "hash": "f7eca4fa5bcd76b621617e42cac668be87dd6ec62eb4d914b0b102d874439883"
+        },
+        {
+            "date": 1690023780140,
+            "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\testPractice\\logs\\winstone\\errors\\phu-22-07-2023-17-error.log",
+            "hash": "80c42f1623c48370db0f96026c2fc07e3cfa7cb9fc36d89053425bad1d8603b3"
+        }
+    ],
+    "hashType": "sha256"
+}

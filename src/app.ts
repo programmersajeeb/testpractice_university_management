@@ -1,8 +1,8 @@
-import express, { Application, Request, Response } from 'express';
+import express, { Application } from 'express';
 const app: Application = express();
 import cors from 'cors';
 import router from './app/modules/users/users.route';
-// import usersService from './app/modules/users/users.service';
+import globalMiddlewares from './app/middlewares/globalMiddlewares';
 
 // use cors
 app.use(cors());
@@ -14,9 +14,12 @@ app.use('/api/v1/users/', router);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// testing purpose
-app.get('/', async (req: Request, res: Response) => {
-  res.send('Ato pagol keno ami karo jonno');
-});
+// // testing purpose
+// app.get('/', (req: Request, res: Response, next: NextFunction) => {
+//   throw new Error('Ore bap re ki error');
+//   // next('ore baba re jaitun');
+// });
 
+// global error handleing
+app.use(globalMiddlewares);
 export default app;
